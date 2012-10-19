@@ -4,22 +4,29 @@
  * that we are using 
  * */
 (function(M) {
-  d3.csv('data/communitySurveys.csv', function(d) {
-    //cleaning up the data; we dont need Sl Nos.
-    _.each(d, function(e) {
-     if(e.hasOwnProperty('Sr No')) {
-       delete e['Sr No'];
-     } 
+  M.init = function() {
+    //this.drawBarCharts();
+    this.drawTreeMap();
+  };
+  
+  M.drawBarCharts = function() {
+    d3.csv('data/communitySurveys.csv', function(d) {
+      //cleaning up the data; we dont need Sl Nos.
+      _.each(d, function(e) {
+        if(e.hasOwnProperty('Sr No')) {
+          delete e['Sr No'];
+        } 
+      });
+      M.data = d; // hold the entire csv as an array of objects
+      M.params = _.keys(d[0]); // get the parameters from the objects
+      //$('#data-params').append('<select name="params"></select>');
+      _.each(M.params, function(val, prop) {
+        //$('#data-params select').append('<option name="'+ prop +'">')
+        $('#data-params').append('<a href="#" id="key' + prop + '">' + val + '</a> | ');
+        $('#key' + prop).click(M.drawGraph);
+      });
     });
-    M.data = d; // hold the entire csv as an array of objects
-    M.params = _.keys(d[0]); // get the parameters from the objects
-    //$('#data-params').append('<select name="params"></select>');
-    _.each(M.params, function(val, prop) {
-      //$('#data-params select').append('<option name="'+ prop +'">')
-      $('#data-params').append('<a href="#" id="key' + prop + '">' + val + '</a> | ');
-      $('#key' + prop).click(M.drawGraph);
-    });
-  });
+  }; 
   M.drawGraph = function(event) {
     var prop = $(event.currentTarget).attr('id').substr(3); //get the property num from the id
     var data = _.countBy(M.data, M.params[prop]); //group by and count
@@ -105,4 +112,4 @@
 
     return false; // to prevent the default action of the click
   };
-})(M);
+})(M); M.init();
