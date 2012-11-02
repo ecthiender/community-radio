@@ -25,6 +25,18 @@ Gurgaon Ki Awaz,Occupation,Service (Private),11,22.00
 Gurgaon Ki Awaz,Occupation,Student,6,12.00
 Gurgaon Ki Awaz,Occupation,Unemployed,2,4.00
 Gurgaon Ki Awaz,Occupation,Wage Labourer,3,6.00
+Gurgaon Ki Awaz,Radio,No,30,60.00
+Gurgaon Ki Awaz,Radio,Yes,19,40.00
+Gurgaon Ki Awaz,TV,Yes,43,86.00
+Gurgaon Ki Awaz,TV,No,7,14.00
+Gurgaon Ki Awaz,Internet,No,47,94.00
+Gurgaon Ki Awaz,Internet,Yes,3,6.00
+Gurgaon Ki Awaz,Mobile Phone,No,39,78.00
+Gurgaon Ki Awaz,Mobile Phone,Yes,11,22.00
+Gurgaon Ki Awaz,Landline,No,48,96.00
+Gurgaon Ki Awaz,Landline,Yes,2,4.00
+Gurgaon Ki Awaz,Newspaper,No,47,94.00
+Gurgaon Ki Awaz,Newspaper,Yes,3,6.00
 Kumaon Vani,Age,25-40,19,38.00
 Kumaon Vani,Age,40-60,11,22.00
 Kumaon Vani,Age,Above 60,4,8.00
@@ -47,6 +59,16 @@ Kumaon Vani,Occupation,Service (Govt.),3,6.00
 Kumaon Vani,Occupation,Service (Private),8,16.00
 Kumaon Vani,Occupation,Student,12,24.00
 Kumaon Vani,Occupation,Wage Labourer,1,2.00
+Kumaon Vani,Radio,No,19,38.00
+Kumaon Vani,Radio,Yes,31,62.00
+Kumaon Vani,TV,No,9,18.00
+Kumaon Vani,TV,Yes,41,82.00
+Kumaon Vani,Internet,No,40,80.00
+Kumaon Vani,Internet,Yes,10,20.00
+Kumaon Vani,Mobile Phone,No,10,20.00
+Kumaon Vani,Mobile Phone,Yes,40,80.00
+Kumaon Vani,Newspaper,No,30,60.00
+Kumaon Vani,Newspaper,Yes,20,40.00
 Lalit Lokvani,Age,25-40,21,42.00
 Lalit Lokvani,Age,40-60,7,14.00
 Lalit Lokvani,Age,Above 60,0,0.00
