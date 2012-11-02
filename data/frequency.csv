@@ -1,0 +1,96 @@
+Radio Station,Demographic,Value,Frequency,Percent
+Gurgaon Ki Awaz,Age,25-40,16,32.00
+Gurgaon Ki Awaz,Age,40-60,14,28.00
+Gurgaon Ki Awaz,Age,Above 60,5,10.00
+Gurgaon Ki Awaz,Age,Less than 25,15,30.00
+Gurgaon Ki Awaz,Income,N.A,6,12.00
+Gurgaon Ki Awaz,Income,0-5000,18,36.00
+Gurgaon Ki Awaz,Income,5000-10000,22,44.00
+Gurgaon Ki Awaz,Income,10000-15000,2,4.00
+Gurgaon Ki Awaz,Income,More than 15000,2,4.00
+Gurgaon Ki Awaz,Education,Unknown,1,2.00
+Gurgaon Ki Awaz,Education,Illiterate,7,14.00
+Gurgaon Ki Awaz,Education,Literate but no formal education,2,4.00
+Gurgaon Ki Awaz,Education,Other,4,8.00
+Gurgaon Ki Awaz,Education,SSC/HSC,17,34.00
+Gurgaon Ki Awaz,Education,School upto 5 years,9,18.00
+Gurgaon Ki Awaz,Education,School upto 6-9 years,10,20.00
+Gurgaon Ki Awaz,Occupation,Farmer,3,6.00
+Gurgaon Ki Awaz,Occupation,Homemaker,6,12.00
+Gurgaon Ki Awaz,Occupation,Homemaker and unemployed,2,4.00
+Gurgaon Ki Awaz,Occupation,Other,2,4.00
+Gurgaon Ki Awaz,Occupation,Self-employed,14,28.00
+Gurgaon Ki Awaz,Occupation,Service (Govt.),1,2.00
+Gurgaon Ki Awaz,Occupation,Service (Private),11,22.00
+Gurgaon Ki Awaz,Occupation,Student,6,12.00
+Gurgaon Ki Awaz,Occupation,Unemployed,2,4.00
+Gurgaon Ki Awaz,Occupation,Wage Labourer,3,6.00
+Kumaon Vani,Age,25-40,19,38.00
+Kumaon Vani,Age,40-60,11,22.00
+Kumaon Vani,Age,Above 60,4,8.00
+Kumaon Vani,Age,Less than 25,16,32.00
+Kumaon Vani,Income,N.A,1,2.00
+Kumaon Vani,Income,0-5000,39,78.00
+Kumaon Vani,Income,5000-10000,7,14.00
+Kumaon Vani,Income,10000-15000,3,6.00
+Kumaon Vani,Education,Unknown,1,2.00
+Kumaon Vani,Education,Illiterate,2,4.00
+Kumaon Vani,Education,Literate but no formal education,4,8.00
+Kumaon Vani,Education,Other,2,4.00
+Kumaon Vani,Education,SSC/HSC,26,52.00
+Kumaon Vani,Education,School upto 5 years,4,8.00
+Kumaon Vani,Education,School upto 6-9 years,11,22.00
+Kumaon Vani,Occupation,Farmer,22,44.00
+Kumaon Vani,Occupation,Homemaker,1,2.00
+Kumaon Vani,Occupation,Self-employed,3,6.00
+Kumaon Vani,Occupation,Service (Govt.),3,6.00
+Kumaon Vani,Occupation,Service (Private),8,16.00
+Kumaon Vani,Occupation,Student,12,24.00
+Kumaon Vani,Occupation,Wage Labourer,1,2.00
+Lalit Lokvani,Age,25-40,21,42.00
+Lalit Lokvani,Age,40-60,7,14.00
+Lalit Lokvani,Age,Above 60,0,0.00
+Lalit Lokvani,Age,Less than 25,22,44.00
+Lalit Lokvani,Income,N.A,1,2.00
+Lalit Lokvani,Income,0-5000,42,84.00
+Lalit Lokvani,Income,5000-10000,5,10.00
+Lalit Lokvani,Income,10000-15000,2,4.00
+Lalit Lokvani,Education,Illiterate,4,8.00
+Lalit Lokvani,Education,Literate but no formal education,3,6.00
+Lalit Lokvani,Education,Other,9,18.00
+Lalit Lokvani,Education,SSC/HSC,15,30.00
+Lalit Lokvani,Education,School upto 5 years,9,18.00
+Lalit Lokvani,Education,School upto 6-9 years,10,20.00
+Lalit Lokvani,Occupation,"A,B",16,32.00
+Lalit Lokvani,Occupation,Farmer,7,14.00
+Lalit Lokvani,Occupation,Homemaker,1,2.00
+Lalit Lokvani,Occupation,Petty Trader,1,2.00
+Lalit Lokvani,Occupation,Self-employed,5,10.00
+Lalit Lokvani,Occupation,Service (Govt.),2,4.00
+Lalit Lokvani,Occupation,Service (Private),6,12.00
+Lalit Lokvani,Occupation,Student,8,16.00
+Lalit Lokvani,Occupation,Unemployed,1,2.00
+Lalit Lokvani,Occupation,Wage Labourer,3,6.00
+Radio Bundelkhand,Age,25-40,21,46.67
+Radio Bundelkhand,Age,40-60,6,13.33
+Radio Bundelkhand,Age,Above 60,1,2.22
+Radio Bundelkhand,Age,Less than 25,17,37.78
+Radio Bundelkhand,Income,0-5000,35,77.78
+Radio Bundelkhand,Income,5000-10000,7,15.56
+Radio Bundelkhand,Income,10000-15000,2,4.44
+Radio Bundelkhand,Income,More than 15000,1,2.22
+Radio Bundelkhand,Education,Illiterate,1,2.22
+Radio Bundelkhand,Education,Other,7,15.56
+Radio Bundelkhand,Education,SSC/HSC,24,53.33
+Radio Bundelkhand,Education,School upto 5 years,2,4.44
+Radio Bundelkhand,Education,School upto 6-9 years,11,24.44
+Radio Bundelkhand,Occupation,Farmer,7,15.56
+Radio Bundelkhand,Occupation,Homemaker,6,13.33
+Radio Bundelkhand,Occupation,Petty Trader,14,31.11
+Radio Bundelkhand,Occupation,Self-employed,1,2.22
+Radio Bundelkhand,Occupation,Service (Govt.),2,4.44
+Radio Bundelkhand,Occupation,Service (Private),7,15.56
+Radio Bundelkhand,Occupation,"Service (Private), Student",1,2.22
+Radio Bundelkhand,Occupation,Student,5,11.11
+Radio Bundelkhand,Occupation,Unemployed,1,2.22
+Radio Bundelkhand,Occupation,Wage Labourer,1,2.22

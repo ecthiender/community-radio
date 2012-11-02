@@ -6,9 +6,28 @@
 (function(M) {
   M.init = function() {
     //this.drawBarCharts();
-    this.drawTreeMap();
+    //this.drawTreeMap();
+    this.drawPivot();
   };
   
+  M.drawPivot = function() {
+    var fields = [
+      {name: 'Radio Station', type: 'regexp', filterable: true, labelable: true},
+      {name: 'Demographic', type: 'regexp', filterable: true, labelable: true},
+      {name: 'Value', type: 'string', filterable: true, labelable: true},
+      {name: 'Frequency', type: 'integer', filterable: true, labelable: true},
+      {name: 'Percent', type: 'float', filterable: true, labelable: true}
+    ];
+    if(pivot) {
+      console.log('initing pivot');
+      var row_labels = ['Radio Station', 'Value', 'Frequency', 'Percent'];
+      $('#pivot-container').pivot_display('setup', {url: 'data/frequency.csv', fields: fields, filters: {Demographic: 'Age'}, rowLabels: row_labels});
+    }
+    else {
+      console.log('pivot.js not loaded');
+    }
+  };
+
   M.drawBarCharts = function() {
     d3.csv('data/communitySurveys.csv', function(d) {
       //cleaning up the data; we dont need Sl Nos.
@@ -27,6 +46,7 @@
       });
     });
   }; 
+
   M.drawGraph = function(event) {
     var prop = $(event.currentTarget).attr('id').substr(3); //get the property num from the id
     var data = _.countBy(M.data, M.params[prop]); //group by and count
